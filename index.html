@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./img/Vector.png" alt="LOGO DE ALURA">
+    </header>
+    <main style="height: 50rem  ;">
+        <section class="seccion1">
+            <textarea id="" class="area" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="contenedor-btn">
+                <button type="button" class="btn btn-encriptar" onclick = "bEncriptar()">ENCRIPTAR</button>
+                <button type="button" class="btn btn-desencriptar" onclick="bDesEncriptar()">DESENCRIPTAR</button>
+                <button type="button" class="btn btn-eliminar" onclick="limpiar()">LIMPIAR</button>
+            </div>
+            
+        </section>
+        <section class="seccion2">
+            <div class="contenedor-munieco">
+                <img src="./img/Muñeco.png" alt="">
+            </div>
+            <div class="contenedor-h3">
+                <h3>
+                    Ningun mensaje fue encontrado...
+                </h3>
+            </div>
+            <div class="contenedor-p">
+                <p>
+                    ingrese el texto que desea encriptar o desencriptar.
+                </p>
+            </div>
+
+            <div class="contenedor-resultado">
+                <h3>
+                    MENSAJE ENCRIPTADO
+                </h3>
+                <textarea class="resultado" id="resultado">
+                    
+                </textarea>
+                <!-- <textarea id=""></textarea> -->
+            </div>
+            <div class="contenedor-copiar">
+                <button type="button" class="btn btn-copiar" onclick="copiarTexto()">COPIAR</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>alura todos los derechos reservados</p>
+    </footer>
+    
+    
+    
+    <!-- Full Name: <textarea type="text" id="fullName" name="fullName" value="Mehvish Ashiq"></textarea>
+    <button type="button" onclick="encriptar()">encriptar</button>
+    <button type="button" onclick="limpiar()">limpiar</button>
+    <button type="button" onclick="desencriptar()">desencriptar</button>
+ 	<p id="displayName"></p> -->
+
+    <script src="app.js"></script>
+</body>
+</html>
